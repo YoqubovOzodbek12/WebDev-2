@@ -1,0 +1,23 @@
+.inner {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 70px;
+    background-color: red;
+}
+
+.inner:hover::before {
+    width: 100px;
+}
+
+.inner::before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 70px;
+    top:0px;
+    left: 0px;
+    background-color: #48ad0960;;
+    transition: 0.3s;
+}
