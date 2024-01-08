@@ -2120,10 +2120,6 @@ p {
         justify-content: center;
     }
 
-    .footer-left {
-        display: none;
-    }
-
     .networks-blok {
         display: block;
         margin-top: 20px;
@@ -2209,4 +2205,37 @@ p {
     color: #A4A4A4;
     margin-top: 17px;
     margin-bottom: 17px;
+}
+
+
+@media only screen and (max-width: 1084px) {
+    .footer-title {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 800;
+    }
+
+    .footer-text {
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 500;
+        padding: 20px 0px;
+    }
+
+    .footer-networks {
+        margin: 0 auto;
+    }
+
+    .footer-networks {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-networks {
+        width: 70%;
+        justify-content: space-around;
+    }
+
 }
