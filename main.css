@@ -353,13 +353,14 @@ p {
         height: 58px;
         border: none;
         background: transparent;
-        background-color: #9fa39db4;
+        background-color: #aeb0ad5f;
         color: #fff;
         font-weight: 500;
         font-size: 16px;
         border-radius: 32px;
         margin-left: 0px;
         margin-top: 15px;
+        border: 0.5px solid #fff;
     }
 }
 
