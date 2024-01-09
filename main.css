@@ -169,10 +169,10 @@ p {
     .header-list {
         position: absolute;
         width: 70%;
-        height: 70vh;
+        height: 100vh;
         right: -18px;
-        top: 47px;
-    background-color: #cfd4cead;
+        top: 46px;
+        background-color: #e6e8e5da;
         z-index: 100;
     }
 
@@ -185,7 +185,7 @@ p {
         color: #050101;
         font-size: 24px;
         font-weight: bold;
-        font-family: serif;
+        font-family: system-ui;
     }
 }
 
