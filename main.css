@@ -169,7 +169,7 @@ p {
     .header-list {
         position: absolute;
         width: 70%;
-        height: 100vh;
+        height: 70vh;
         right: -18px;
         top: 46px;
         background-color: #e6e8e5da;
@@ -177,7 +177,6 @@ p {
     }
 
     .header-item {
-        padding-left: 55%;
         padding-top: 20px;
     }
 
@@ -365,6 +364,14 @@ p {
         margin-top: 15px;
         border: 0.5px solid #fff;
     }
+
+    .review-desc {
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+        padding-left: 15px;
+    }
+
 }
 
 /* /* Hero responsive */
@@ -1105,7 +1112,7 @@ p {
     }
 
     .will-list {
-        width: 320px;
+        width: 300px;
         height: 320px;
         border-radius: 32px;
         margin-left: 10px;
@@ -1116,6 +1123,10 @@ p {
 
     .will-active {
         border: 2px solid #49AD09;
+    }
+
+    .will-img {
+        width: 280px;
     }
 }
 
@@ -1142,8 +1153,6 @@ p {
     .will-img {
         width: 280px;
     }
-
-
     .will-active {
         border: 2px solid #49AD09;
     }
