@@ -39,15 +39,24 @@ for(i=0; i<box.length; i++) {
 }
 
 
-let headerBurger = document.querySelectorAll('.header-burger')
+let headerBurger = document.querySelector('.header-burger')
 let headerList = document.querySelector('.header-list')
 
 
-headerBurger.forEach(element => {
-    element.addEventListener('click', function() {
+
+headerBurger.addEventListener('click', function() {
         headerList.classList.toggle('active');
-    })
+        const isActive = headerList.classList.contains('active')
+        console.log(isActive);
+        if(isActive) {
+            document.body.style.height = '100vh' 
+            document.body.style.overflowY = 'hidden' 
+        } else {
+            document.body.style.height = 'auto' 
+            document.body.style.overflowY = 'scroll' 
+        }
 })
+
 
 
 
