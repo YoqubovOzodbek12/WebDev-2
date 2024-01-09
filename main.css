@@ -172,17 +172,20 @@ p {
         height: 70vh;
         right: -18px;
         top: 47px;
-        background-color: red;
+    background-color: #cfd4cead;
         z-index: 100;
     }
 
     .header-item {
+        padding-left: 55%;
         padding-top: 20px;
     }
 
     .item-link {
-        color: #fff;
-        font-size: 22px;
+        color: #050101;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: serif;
     }
 }
 
@@ -616,10 +619,12 @@ p {
         width: 269px;
         height: 242ps;
         margin-top: 120px;
-        border: 2px solid #0ad71b;
+        border: 3px solid #7cda83;
         border-radius: 10px;
         padding: 10px;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(75, 242, 75, 0.22) 0px 15px 12px;
+        -webkit-box-shadow: 18px 20px 8px 0px rgba(57, 221, 134, 0.2);
+        -moz-box-shadow: 18px 20px 8px 0px rgba(57, 221, 134, 0.2);
+        box-shadow: 18px 20px 8px 0px rgba(57, 221, 134, 0.2);
     }
 
     .can-bor {
@@ -707,9 +712,7 @@ p {
     color: #262626;
 }
 
-@media only screen and (max-width:967px) {
-
-}
+@media only screen and (max-width:967px) {}
 
 
 
