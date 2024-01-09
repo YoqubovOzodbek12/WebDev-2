@@ -38,3 +38,16 @@ for(i=0; i<box.length; i++) {
     })
 }
 
+
+let headerBurger = document.querySelectorAll('.header-burger')
+let headerList = document.querySelector('.header-list')
+
+
+headerBurger.forEach(element => {
+    element.addEventListener('click', function() {
+        headerList.classList.toggle('active');
+    })
+})
+
+
+
