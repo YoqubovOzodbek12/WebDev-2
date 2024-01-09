@@ -1334,6 +1334,10 @@ p {
     flex-wrap: wrap;
 }
 
+.zoom-out-right {
+    overflow: hidden;
+}
+
 
 /* Client */
 
