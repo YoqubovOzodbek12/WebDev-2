@@ -169,7 +169,7 @@ p {
     .header-list {
         position: absolute;
         width: 70%;
-        height: 70vh;
+        height: calc(100vh - 36px);
         right: -18px;
         top: 46px;
         background-color: #e6e8e5da;
