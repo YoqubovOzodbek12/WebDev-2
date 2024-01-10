@@ -172,7 +172,7 @@ p {
         height: calc(100vh - 36px);
         right: -18px;
         top: 46px;
-        background-color: #e6e8e5da;
+        background-color: #e6e8e5de;
         z-index: 100;
     }
 
@@ -1566,6 +1566,16 @@ p {
 
     .com-text {
         display: contents;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .client-img {
+        height: 350px;
+    }
+
+    .rigth-img {
+        height: 350px;
     }
 }
 
