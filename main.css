@@ -276,6 +276,14 @@ p {
     border-radius: 32px;
 }
 
+
+.hero-contack:hover {
+    color: #49AD09;
+    background-color: #fff;
+    border: 1px solid #49AD09;
+    transition: 350ms ease-in-out;
+}
+
 .hero-video {
     width: 230px;
     height: 58px;
@@ -288,6 +296,11 @@ p {
     border-radius: 32px;
     margin-left: 15px;
     border: 0.5px solid #fff;
+}
+
+.hero-video:hover {
+    background-color: #aeb0adb6;
+    transition: 350ms ease-in-out;
 }
 
 .hero-video::after {
@@ -762,12 +775,20 @@ p {
 }
 
 .business-title {
+    position: relative;
     font-size: 48px;
     font-weight: 900;
     line-height: 72px;
     margin-top: 60px;
     position: relative;
     z-index: 9999;
+}
+.business-title::after {
+    position: absolute;
+    content: url(./img/Rectangle\ 25.svg);
+    left: -57px;
+    top: -20px;
+    z-index: -1;
 }
 
 .business-rigth::after {
@@ -1258,24 +1279,92 @@ p {
     font-weight: 400;
 }
 
+.grow-btn::after {
+    position: absolute;
+    content: url('./img/Group\ 42.svg');
+    left: -54px;
+    top: -153px;
+}
+
 
 /* Grow */
 
 /* Grow responsive */
-@media only screen and(max-width: 896px) {
-    .grow {
-        width: 800px;
-        height: 360px;
-        background: rgb(5, 79, 5);
-        background: linear-gradient(90deg, rgba(5, 79, 5, 1) 32%, rgba(42, 136, 61, 1) 69%, rgba(48, 175, 72, 1) 100%, rgba(9, 121, 27, 1) 100%, rgba(22, 86, 99, 1) 100%);
-        border-radius: 8px;
-        margin-top: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+
+@media only screen and (max-width:1200px) {
+    .grow-btn {
+        position: relative;
+        width: 160px;
+        height: 58px;
+        border: 1px solid #fff;
+        background: none;
+        background-color: #cff7c029;
+        color: #fff;
+        border-radius: 32px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .grow-btn::after {
+        position: absolute;
+        content: url('./img/Group\ 42.svg');
+        left: -54px;
+        top: -153px;
     }
 }
 
+@media only screen and (max-width:915px) {
+    .grow-btn {
+        position: relative;
+        width: 160px;
+        height: 58px;
+        border: 1px solid #fff;
+        background: none;
+        background-color: #cff7c029;
+        color: #fff;
+        border-radius: 32px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+
+    .grow-btn::after {
+        position: absolute;
+        content: url('./img/Group\ 42.svg');
+        left: -54px;
+        top: -153px;
+    }
+}
+
+@media only screen and (max-width: 984px) {
+    .grow-btn::after {
+        position: absolute;
+        content: url('./img/Group\ 42.svg');
+        left: -242px;
+        top: -153px;
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:621px) {
+    .grow-btn::after {
+        position: absolute;
+        content: url('./img/Group\ 42.svg');
+        left: -265px;
+        top: -153px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .grow-btn::after {
+        position: absolute;
+        content: url('./img/Group\ 42.svg');
+        left: -116px;
+        top: -282px;
+        display: none;
+    }
+}
 
 @media only screen and(max-width: 489px) {
 
